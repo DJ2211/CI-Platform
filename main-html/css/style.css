@@ -1,0 +1,181 @@
+/* importing fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* universal style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.height-main {
+  height: 100vh;
+}
+
+.margin-form {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.img-h5 {
+  font-size: 32px;
+  /* letter-spacing: 52px; */
+}
+
+.main-div {
+  justify-content: center;
+}
+
+.p-lr {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.form-style {
+  width: 70%;
+}
+
+/* .form-input {
+} */
+
+.mform {
+  margin-top: auto;
+  padding-top: 70px;
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* .mform-registration {
+  margin-top: 0;
+  /* padding-top: 70px; */
+/* margin-bottom: 0;
+  height: auto;
+  margin-top: 100px;
+} */
+
+.mform-registration {
+  /* padding-top: 10px; */
+  margin-top: auto;
+  /* padding-top: 70px; */
+  margin-bottom: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.form-div {
+  margin-bottom: 22px;
+}
+
+.form-div-r {
+  margin-bottom: 10px;
+}
+
+.form-label-text {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.form-control-height {
+  height: 42px;
+}
+
+.carousel-caption-text {
+  margin-left: -50px;
+}
+
+.btn-login {
+  width: 100%;
+  outline: 1px solid #f88634;
+  border-radius: 24px;
+  color: #f88634;
+}
+
+.btn-round {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.p-form {
+  margin-top: 14px;
+  color: #414141;
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.p-privacy {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  /* margin-top: 100px; */
+  /* justify-content: center; */
+  margin-bottom: 100px;
+}
+
+.policy {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.p-privacy-r {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* forgot password  */
+
+.forgot-password-font {
+  color: #414141;
+  font-size: 22px;
+}
+
+.forgot-password-font-p {
+  font-size: 14px;
+  color: #414141;
+  font-weight: 300;
+}
+
+/* media query for tablet view */
+@media (max-width: 1024px) {
+  /* .form-style {
+    margin-top: 10%;
+  } */
+
+  .p-privacy {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .height-main {
+    height: 50vh;
+  }
+
+  .form-label-text {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .form-control-height {
+    height: 32px;
+  }
+
+  .form-div {
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
+  .mform-registration {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
