@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="row w-100 m-0 h-100 height-main">
+
+    <div class="col-md-8  col-sm-12   p-lr my-auto">
+
+        <!-- Carousel wrapper -->
+        <div id="carouselBasicExample" class="carousel slide " data-bs-ride="carousel">
+            <!-- indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Inner -->
+            <div class="carousel-inner ">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100 height-main" alt="Sunset Over the City" />
+                    <div class="carousel-caption d-none d-md-block carousel-caption-text ">
+                        <h5 class="display-2 text-left">Sed ut perspiciatis unde omnis iste natus voluptatem.</h5>
+                        <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quaerat molestias dolores molestiae, veritatis inventore iusto commodi dolorum, illo vero deserunt odio et ullam ipsum quidem tempora numquam tenetur beatae.</p>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100 height-main" alt="Cliff Above a Stormy Sea" />
+                    <div class="carousel-caption d-none d-md-block carousel-caption-text">
+                        <h5 class="display-2 text-left">Sed ut perspiciatis unde omnis iste natus voluptatem.</h5>
+                        <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quaerat molestias dolores molestiae, veritatis inventore iusto commodi dolorum, illo vero deserunt odio et ullam ipsum quidem tempora numquam tenetur beatae.</p>
+                    </div>
+                </div>
+
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <img src="/images/Grow-Trees-On-the-path-to-environment-sustainability-login.png" class="d-block w-100 height-main" alt="Cliff Above a Stormy Sea" />
+                    <div class="carousel-caption d-none d-md-block carousel-caption-text">
+                        <h5 class="display-2 text-left">Sed ut perspiciatis unde omnis iste natus voluptatem.</h5>
+                        <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est quaerat molestias dolores molestiae, veritatis inventore iusto commodi dolorum, illo vero deserunt odio et ullam ipsum quidem tempora numquam tenetur beatae.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Inner -->
+
+    </div>
+    <!-- Carousel wrapper -->
+
+
+
+    <div class="col-md-4  col-sm-12 d-flex flex-column justify-content-center ">
+        <!-- <div class="col-md-4  col-sm-12 my-auto   "> -->
+        <!-- <div  class="form-style "> -->
+        <form class="mform  ">
+            <!-- <form >   -->
+            <div class="form-div">
+                <label for="exampleInputEmail1" class="form-label form-label-text">Email address</label>
+                <input type="email" class="form-control form-control-height" id="exampleInputEmail1">
+            </div>
+            <div class="form-div ">
+                <label for="exampleInputPassword1" class="form-label form-label-text">Password</label>
+                <input type="password" class="form-control form-control-height" id="exampleInputPassword1">
+            </div>
+            <div class="form-div mb-4">
+                <button type="button" class="btn btn-outline-warning btn-login">Login</button>
+            </div>
+            <p class="p-form text-decoration-none "><a class="text-muted" asp-controller="Home" asp-action="ForgotPassword">Lost your password?</a></p>
+            <p class="p-form">Don’t have an account? <a asp-controller="Home" asp-action="RegistrationPage">Create an account</a></p>
+
+        </form>
+
+        <!-- </div> -->
+        <a href="__blanc"><p class="p-privacy text-decoration-none text-muted">Privacy Policy</p></a>
+
+
+    </div>
+
+</div>

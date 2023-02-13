@@ -1,0 +1,31 @@
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\appsettings.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.staticwebassets.runtime.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.exe
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.deps.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.runtimeconfig.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.dll
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\bin\Debug\net6.0\CI Platform.pdb
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.csproj.AssemblyReference.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.AssemblyInfoInputs.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.AssemblyInfo.cs
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.csproj.CoreCompileInputs.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.RazorAssemblyInfo.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.RazorAssemblyInfo.cs
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets\msbuild.CI Platform.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets\msbuild.build.CI Platform.props
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CI Platform.props
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CI Platform.props
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\scopedcss\bundle\CI Platform.styles.css
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\scopedcss\projectbundle\CI Platform.bundle.scp.css
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.dll
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\refint\CI Platform.dll
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.pdb
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\CI Platform.genruntimeconfig.cache
+C:\Users\Jaydh\Desktop\desktop\projects\tatvasoft\Project\.net mvc\CI Platform main\CI Platform\obj\Debug\net6.0\ref\CI Platform.dll
