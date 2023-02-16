@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- links for stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+    <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+     crossorigin="anonymous"
+   />
+   <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+   />
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"
+   ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+   <!-- own css file import -->
+   <link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+
+    <div class="custom-padding">
+        <!-- navigation top of home page -->
+               <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg ">
+            <!-- Container wrapper -->
+            <div class="container-fluid px-0  ">
+
+
+                    
+                <!-- Toggle button -->
+                <!-- *?togggle button not working here  -->
+                <button class="navbar-toggler"
+                 type="button"
+                  data-toggle="collapse"
+                   data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                     aria-expanded="false"
+                      aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- <div >
+                        <a class="navbar-brand mt-2 mt-lg-0 " href="#">
+                            <img
+                              src="/images/logo.png"
+                              height="25"
+                              alt="Optimy logo"
+                              loading="lazy"
+                            />
+                          </a>
+                    </div>
+                     -->
+                    <!-- explore and policy are dropdowns so their code will be different -->
+                    <!--*? this button is for navbar toggle function <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button> -->
+
+                      <!--  -->
+                     
+                          
+                       
+
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <!-- dropdown for explore -->
+                        <li class="nav-item dropdown mx-3 m-auto">
+                            <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                                Explore
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Explore something </a></li>
+                                <li><a class="dropdown-item" href="#">In life </a></li>
+                                <li><a class="dropdown-item" href="#">or let it explore you</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-muted" href="#">Stories</a>
+                        </li>
+
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-muted" href="#">News</a>
+                        </li>
+                        
+
+                        <!-- *?this code is same as explore but this is for policy -->
+                        <li class="nav-item dropdown mx-3 m-auto">
+                            <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                                Policy
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">the terms and </a></li>
+                                <li><a class="dropdown-item" href="#">conditions are  </a></li>
+                                <li><a class="dropdown-item" href="#">accepted here</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+            
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+
+
+                    <!-- Icon -->
+                    <a class="text-reset me-3 " href="#">
+                        <img src="/images/bell.png"
+                        alt="bell icon"
+                        height="20"
+                        loading="lazy">
+                    </a>
+            
+                    <!-- Avatar -->
+                    
+                    <div class="dropdown mx-3 ">
+                    
+                            <!-- *? this down code is for opening drop down for profile items  -->
+                            <!-- *! but it is not working and i dont know the error  -->
+
+                        <a class="nav-link dropdown-toggle d-flex align-items-center"
+                        href="#"
+                        role="button"
+                        data-toggle="dropdown"
+                            
+                            aria-expanded="false">
+                        <img 
+                        src="/images/user-img.png"
+                            height="40px"
+                            width="40px"
+                            alt="Black and White Portrait of a Man"
+                            class="img-round">
+
+                            <p class="text-muted m-auto mx-3">Evan Donohue</p>
+                        </a>
+                        
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">the terms and </a></li>
+                            <li><a class="dropdown-item" href="#">conditions are  </a></li>
+                            <li><a class="dropdown-item" href="#">accepted here</a></li>
+                        </ul>
+                        
+                    <!--down div will complete avatars profile , name and the last button of it  -->
+                    </div>
+               
+                 
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+
+        <!-- Navbar -->
+
+        <hr class="thick-hr text-muted"/>
+       
+        <!-- second navbar for website -->
+
+        <div class="row">
+            <div class="col-6 d-flex flex-row ">
+                <a href="#"><img src="/images/search.png" alt="search icon"></a>
+                <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0 ">
+                <label for="search"></label>
+            </div>
+            <div class="col-6 ">
+                <ul class="d-flex flex-row h-100">
+                    <li class=" dropdown   col-3 ">
+                        <button class="btn  dropdown-toggle text-muted " data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Explore something </a></li>
+                            <li><a class="dropdown-item" href="#">In life </a></li>
+                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
+                        </ul>
+                    </li>
+                
+                    <li class="dropdown  col-3">
+                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Explore something </a></li>
+                            <li><a class="dropdown-item" href="#">In life </a></li>
+                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown  col-3">
+                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Explore something </a></li>
+                            <li><a class="dropdown-item" href="#">In life </a></li>
+                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown  col-3">
+                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Explore something </a></li>
+                            <li><a class="dropdown-item" href="#">In life </a></li>
+                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                    
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+

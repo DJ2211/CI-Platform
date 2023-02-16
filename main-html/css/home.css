@@ -1,0 +1,32 @@
+/* importing fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* universal style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.custom-padding {
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.thick-hr {
+  border: 0.8px solid;
+}
+
+.padding-for-search {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
