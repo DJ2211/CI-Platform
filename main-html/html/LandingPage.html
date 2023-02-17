@@ -33,207 +33,265 @@
    <!-- own css file import -->
    <link rel="stylesheet" href="/css/home.css">
 </head>
+
 <body>
 
     <div class="custom-padding">
         <!-- navigation top of home page -->
                <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg ">
-            <!-- Container wrapper -->
-            <div class="container-fluid px-0  ">
+               <!-- *! this is first navbar -->
+               <!-- *! this is first navbar -->
+               <!-- *! this is first navbar -->
+
+        <div class="d-flex flex-row justify-content-between">
 
 
-                    
-                <!-- Toggle button -->
-                <!-- *?togggle button not working here  -->
-                <button class="navbar-toggler"
-                 type="button"
-                  data-toggle="collapse"
-                   data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup"
-                     aria-expanded="false"
-                      aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-            
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <!-- <div >
-                        <a class="navbar-brand mt-2 mt-lg-0 " href="#">
-                            <img
-                              src="/images/logo.png"
-                              height="25"
-                              alt="Optimy logo"
-                              loading="lazy"
-                            />
-                          </a>
-                    </div>
-                     -->
-                    <!-- explore and policy are dropdowns so their code will be different -->
-                    <!--*? this button is for navbar toggle function <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-md mb-0 navbar-light">
+                <!-- Container wrapper -->
+                <div class=" px-0">
+    
+    
+                    <button class="navbar-toggler"
+                     type="button"
+                      data-bs-toggle="collapse"
+                       data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                         aria-expanded="false"
+                          aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                      </button> -->
-
-                      <!--  -->
-                     
+                      </button>
+                    <!-- Collapsible wrapper -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Left links -->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           
-                       
-
-                    <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <!-- dropdown for explore -->
-                        <li class="nav-item dropdown mx-3 m-auto">
-                            <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
-                                Explore
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Explore something </a></li>
-                                <li><a class="dropdown-item" href="#">In life </a></li>
-                                <li><a class="dropdown-item" href="#">or let it explore you</a></li>
-                            </ul>
-                        </li>
-
-
-                        <li class="nav-item mx-3">
-                            <a class="nav-link text-muted" href="#">Stories</a>
-                        </li>
-
-                        <li class="nav-item mx-3">
-                            <a class="nav-link text-muted" href="#">News</a>
-                        </li>
-                        
-
-                        <!-- *?this code is same as explore but this is for policy -->
-                        <li class="nav-item dropdown mx-3 m-auto">
-                            <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
-                                Policy
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu">
-                                <li><a class="dropdown-item" href="#">the terms and </a></li>
-                                <li><a class="dropdown-item" href="#">conditions are  </a></li>
-                                <li><a class="dropdown-item" href="#">accepted here</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                    <!-- Left links -->
-                </div>
-                <!-- Collapsible wrapper -->
-            
-                <!-- Right elements -->
-                <div class="d-flex align-items-center">
-
-
-                    <!-- Icon -->
-                    <a class="text-reset me-3 " href="#">
-                        <img src="/images/bell.png"
-                        alt="bell icon"
-                        height="20"
-                        loading="lazy">
-                    </a>
-            
-                    <!-- Avatar -->
-                    
-                    <div class="dropdown mx-3 ">
-                    
-                            <!-- *? this down code is for opening drop down for profile items  -->
-                            <!-- *! but it is not working and i dont know the error  -->
-
-                        <a class="nav-link dropdown-toggle d-flex align-items-center"
-                        href="#"
-                        role="button"
-                        data-toggle="dropdown"
+    
+                            <li class="nav-item mx-3">
+                                <a class="nav-link text-muted" href="#">Stories</a>
+                            </li>
+    
                             
-                            aria-expanded="false">
-                        <img 
-                        src="/images/user-img.png"
-                            height="40px"
-                            width="40px"
-                            alt="Black and White Portrait of a Man"
-                            class="img-round">
-
-                            <p class="text-muted m-auto mx-3">Evan Donohue</p>
-                        </a>
-                        
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">the terms and </a></li>
-                            <li><a class="dropdown-item" href="#">conditions are  </a></li>
-                            <li><a class="dropdown-item" href="#">accepted here</a></li>
+    
+                            <!-- *?this code is same as explore but this is for policy -->
+                            <li class="nav-item dropdown mx-3 ">
+                                <button class="btn  dropdown-toggle text-muted h-100 custom-for-nav-button-padding" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Policy
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">the terms and </a></li>
+                                    <li><a class="dropdown-item" href="#">conditions are  </a></li>
+                                    <li><a class="dropdown-item" href="#">accepted here</a></li>
+                                </ul>
+                            </li>
+    
                         </ul>
-                        
-                    <!--down div will complete avatars profile , name and the last button of it  -->
+                        <!-- Left links -->
                     </div>
-               
-                 
                 </div>
-                <!-- Right elements -->
-            </div>
-            <!-- Container wrapper -->
-        </nav>
+                <!-- Container wrapper -->
+            </nav>
+            <!-- Collapsible wrapper -->
+                
+                    <!-- Right elements -->
+                    <div class="d-flex align-items-center ">
+
+                        <!-- Icon -->
+                        <a class="text-reset me-3 " href="#">
+                            <img src="/images/bell.png"
+                            alt="bell icon"
+                            height="20"
+                            loading="lazy">
+                        </a>
+                
+                        <!-- Avatar -->
+                        
+                       
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown mx-3 ">
+            
+                                        
+                                <button class="btn  text-muted h-100" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center"
+                                    href="#"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                        
+                                        aria-expanded="false">
+                                    <img 
+                                    src="/images/user-img.png"
+                                        height="40px"
+                                        width="40px"
+                                        alt="Black and White Portrait of a Man"
+                                        class="img-round ">
+            
+                                        <p class="text-muted m-auto mx-3 text-decoration-none custom-hidden">Evan Donohue</p>
+                                    </a>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">The name</a></li>
+                                    <li><a class="dropdown-item" href="#">Profile pic  </a></li>
+                                    <li><a class="dropdown-item" href="#">accepted </a></li>
+                                </ul>
+                            </li>
+            
+                        </ul>
+                     
+                    </div>
+                    <!-- Right elements -->     
+              
+             
+        </div>
+
+      
 
         <!-- Navbar -->
 
-        <hr class="thick-hr text-muted"/>
-       
-        <!-- second navbar for website -->
-
-        <div class="row">
-            <div class="col-6 d-flex flex-row ">
-                <a href="#"><img src="/images/search.png" alt="search icon"></a>
-                <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0 ">
-                <label for="search"></label>
-            </div>
-            <div class="col-6 ">
-                <ul class="d-flex flex-row h-100">
-                    <li class=" dropdown   col-3 ">
-                        <button class="btn  dropdown-toggle text-muted " data-bs-toggle="dropdown" aria-expanded="false">
-                            Explore
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Explore something </a></li>
-                            <li><a class="dropdown-item" href="#">In life </a></li>
-                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
-                        </ul>
-                    </li>
-                
-                    <li class="dropdown  col-3">
-                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
-                            Explore
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Explore something </a></li>
-                            <li><a class="dropdown-item" href="#">In life </a></li>
-                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown  col-3">
-                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
-                            Explore
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Explore something </a></li>
-                            <li><a class="dropdown-item" href="#">In life </a></li>
-                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown  col-3">
-                        <button class="btn  dropdown-toggle text-muted" data-bs-toggle="dropdown" aria-expanded="false">
-                            Explore
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Explore something </a></li>
-                            <li><a class="dropdown-item" href="#">In life </a></li>
-                            <li><a class="dropdown-item" href="#">or let it explore you</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                    
-            </div>
-        </div>
-
     </div>
+    <!-- this above div is of custom padding class -->
+
+        <hr class="thick-hr  text-muted "/>
+
+
+    <div class="custom-padding">
+         <!-- second navbar for website -->
+<!-- *! this is the second navbar -->
+<!-- *! this is the second navbar -->
+<!-- *! this is the second navbar -->
+<!-- *! this is the second navbar -->
+<!-- *! this is the second navbar -->
+         
+            <div class="row custom-width-for-2nd-navbar ">
+                <div class="col-lg-6 col-md-6 col-sm-7 col-xs-11 d-flex flex-row h-100 ">
+                    <a href="#" type="button" class="align-self-center"> <img src="/images/search.png"   alt="search icon"></a>
+                    <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0  h-100 custom-for-search">
+                    <label for="search"></label>
+                </div>
+                <nav class=" col-lg-6 col-md-6 col-sm-5 col-xs-1 navbar navbar-expand-md mb-0 p-0 ">
+                    <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                             data-bs-target="#searchbarContent" aria-controls="searchbarContent"
+                             aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!-- *?this is main div -->
+                        <!-- *?this is main div -->
+                        <!-- *?this is main div -->
+
+                        <div class=" collapse navbar-collapse row p-0" id="searchbarContent">
+                            <ul class="d-flex flex-row custom-padding-for-second-nav navbar-nav ">
+                                <li class=" dropdown   col-3">
+                                    <button class="btn text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-100  d-flex flex-row justify-content-between text-muted">
+                                            Country
+                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                        </div>
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">France</a></li>
+                                        <li><a class="dropdown-item" href="#">Italy</a></li>
+                                        <li><a class="dropdown-item" href="#">Japan</a></li>
+                                    </ul>
+                                </li>
+                            
+                                <li class="dropdown  col-3">
+                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                            City
+                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                        </div>
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Paris</a></li>
+                                        <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                                        <li><a class="dropdown-item" href="#">Tokyo</a></li>
+                                    </ul>
+                                </li>
+            
+                                <li class="dropdown  col-3">
+                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                            Theme
+                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                        </div>
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Decoration</a></li>
+                                        <li><a class="dropdown-item" href="#">Cultural</a></li>
+                                        <li><a class="dropdown-item" href="#">Motivational</a></li>
+                                    </ul>
+                                </li>
+            
+                                <li class="dropdown  col-3">
+                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                            Skills
+                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                        </div>
+                                        
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Cooking</a></li>
+                                        <li><a class="dropdown-item" href="#">Coding</a></li>
+                                        <li><a class="dropdown-item" href="#">Nothing else</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                </nav>
+              
+            </div>
+            <!-- the above div indicates completion of second nav element -->
+         
+
+     
+        </div>
+   
+        <hr class="thin-hr text-muted "/>
+        
+        <div class="custom-padding ">
+                <div class="row justify-content-end">
+                    <div class="col-lg-4 col-md-3 ">
+                        <p class="h4 text-decoration-none text-muted">Explore <strong class="h4">72 mission</strong></p>                
+                    </div>
+                    <div class="col-lg-8 col-md-9">
+                        <!-- the below code is for button -->
+                        <button class="btn   text-muted h-100 w-25 border" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                Sort By
+                            <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                            </div>
+                           
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Cooking</a></li>
+                            <li><a class="dropdown-item" href="#">Coding</a></li>
+                            <li><a class="dropdown-item" href="#">Nothing else</a></li>
+                        </ul>
+
+                        <a href="#" type="button" class="grid-icon">
+                            <img src="/images/grid.png" alt="grid layout">
+                        </a>
+                        <a href="#" type="button" class="grid-icon-list">
+                            <img src="/images/list.png" alt="grid layout">
+                        </a>
+
+                    </div>
+                </div>
+        </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
 

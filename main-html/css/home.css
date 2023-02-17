@@ -11,8 +11,8 @@
 }
 
 .custom-padding {
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .img-round {
@@ -20,7 +20,14 @@
 }
 
 .thick-hr {
-  border: 0.8px solid;
+  border-bottom: 0.1px solid;
+  padding: 0px;
+  margin: 0px;
+}
+.thin-hr {
+  border-bottom: 2px solid;
+  padding: 0px;
+  margin: 0px;
 }
 
 .padding-for-search {
@@ -29,4 +36,58 @@
 
 ul {
   list-style-type: none;
+}
+
+.grid-icon {
+  background-color: #e6e6e6;
+  border-radius: 50%;
+  padding: 7px;
+  border: none;
+}
+
+.grid-icon-list {
+  background: transparent;
+  border-radius: 50%;
+  padding: 7px;
+  border: none;
+}
+
+.custom-for-search {
+  box-shadow: none;
+}
+
+.custom-width-for-2nd-navbar {
+  height: 65px;
+}
+
+.custom-height-for-li {
+  height: 100%;
+}
+
+.custom-for-nav-button-padding {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .custom-padding {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-padding-for-second-nav {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .custom-padding {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .custom-hidden {
+    display: none;
+  }
 }
