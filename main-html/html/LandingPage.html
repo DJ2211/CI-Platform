@@ -93,7 +93,7 @@
             <!-- Collapsible wrapper -->
                 
                     <!-- Right elements -->
-                    <div class="d-flex align-items-center ">
+                    <div class="d-flex align-items-center  ">
 
                         <!-- Icon -->
                         <a class="text-reset me-3 " href="#">
@@ -161,13 +161,13 @@
 <!-- *! this is the second navbar -->
          
             <div class="row custom-width-for-2nd-navbar ">
-                <div class="col-lg-6 col-md-6 col-sm-7 col-xs-11 d-flex flex-row h-100 ">
+                <div class="col-lg-6 col-md-5 col-sm-5 col-xs-9 d-flex flex-row h-100 ">
                     <a href="#" type="button" class="align-self-center"> <img src="/images/search.png"   alt="search icon"></a>
                     <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0  h-100 custom-for-search">
                     <label for="search"></label>
                 </div>
-                <nav class=" col-lg-6 col-md-6 col-sm-5 col-xs-1 navbar navbar-expand-md mb-0 p-0 ">
-                    <div class="container-fluid ">
+                <nav class=" col-lg-6 col-md-7 col-sm-7 col-xs-3 navbar navbar-expand-md mb-0 p-0 ">
+                    <div class="container-fluid h-100 ">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                              data-bs-target="#searchbarContent" aria-controls="searchbarContent"
                              aria-expanded="false" aria-label="Toggle navigation">
@@ -178,9 +178,9 @@
                         <!-- *?this is main div -->
                         <!-- *?this is main div -->
 
-                        <div class=" collapse navbar-collapse row p-0" id="searchbarContent">
-                            <ul class="d-flex flex-row custom-padding-for-second-nav navbar-nav ">
-                                <li class=" dropdown   col-3">
+                        <div class=" collapse navbar-collapse row p-0 " id="searchbarContent">
+                            <ul class="custom-class-for-flex custom-padding-for-second-nav navbar-nav h-100">
+                                <li class=" dropdown   col-lg-3 col-md-3 p-0 ">
                                     <button class="btn text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
                                         <div class="w-100  d-flex flex-row justify-content-between text-muted">
                                             Country
@@ -195,22 +195,22 @@
                                     </ul>
                                 </li>
                             
-                                <li class="dropdown  col-3">
-                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                <li class=" dropdown   col-lg-3 col-md-3 p-0 ">
+                                    <button class="btn text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <div class="w-100  d-flex flex-row justify-content-between text-muted">
                                             City
                                         <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
                                         </div>
                                         
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Paris</a></li>
                                         <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                                        <li><a class="dropdown-item" href="#">Paris</a></li>
                                         <li><a class="dropdown-item" href="#">Tokyo</a></li>
                                     </ul>
                                 </li>
             
-                                <li class="dropdown  col-3">
+                                <li class="dropdown  col-lg-3  col-md-3 p-0 ">
                                     <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
                                         <div class="w-100 d-flex flex-row justify-content-between text-muted">
                                             Theme
@@ -225,7 +225,7 @@
                                     </ul>
                                 </li>
             
-                                <li class="dropdown  col-3">
+                                <li class="dropdown  col-lg-3 col-md-3 p-0 ">
                                     <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
                                         <div class="w-100 d-flex flex-row justify-content-between text-muted">
                                             Skills
@@ -253,37 +253,546 @@
         </div>
    
         <hr class="thin-hr text-muted "/>
+
+        <!-- *! this is for explore mission and grid and list view buttons  -->
+        <!-- *! this is for explore mission and grid and list view buttons  -->
+        <!-- *! this is for explore mission and grid and list view buttons  -->
         
         <div class="custom-padding ">
-                <div class="row justify-content-end">
-                    <div class="col-lg-4 col-md-3 ">
-                        <p class="h4 text-decoration-none text-muted">Explore <strong class="h4">72 mission</strong></p>                
-                    </div>
-                    <div class="col-lg-8 col-md-9">
-                        <!-- the below code is for button -->
-                        <button class="btn   text-muted h-100 w-25 border" data-bs-toggle="dropdown" aria-expanded="false">
-                            <div class="w-100 d-flex flex-row justify-content-between text-muted">
-                                Sort By
-                            <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
-                            </div>
-                           
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Cooking</a></li>
-                            <li><a class="dropdown-item" href="#">Coding</a></li>
-                            <li><a class="dropdown-item" href="#">Nothing else</a></li>
-                        </ul>
+                <div class="row pt-5 ">
+                    <div class="col-lg-5 col-md-4 col-sm-4 col-xs-6  ">
+                        <div class="mt-3">
+                            <p class=" text-decoration-none text-muted custom-class-for-text-of-explore ">Explore <strong >72 mission</strong></p>                
 
-                        <a href="#" type="button" class="grid-icon">
-                            <img src="/images/grid.png" alt="grid layout">
-                        </a>
-                        <a href="#" type="button" class="grid-icon-list">
-                            <img src="/images/list.png" alt="grid layout">
-                        </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-8 col-sm-8 col-xs-6  d-flex flex-row justify-content-end ">
+                        <!-- the below code is for button -->
+                            <div class="text-muted pe-5  custom-width-for-sortby-div"">
+                                <button class="btn border h-100 w-100 " data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div class="w-100 d-flex flex-row justify-content-between me-5 ">
+                                        Sort By
+                                    <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Cooking</a></li>
+                                    <li><a class="dropdown-item" href="#">Coding</a></li>
+                                    <li><a class="dropdown-item" href="#">Nothing else</a></li>
+                                </ul>
+                            </div>
+                           <div class="text-end pe-2">
+                                <a href="#" type="button" class="grid-icon">
+                                    <img src="/images/grid.png" alt="grid layout">
+                                </a>
+                                <a href="#" type="button" class="grid-icon-list">
+                                    <img src="/images/list.png" alt="grid layout">
+                                </a>
+                           </div>
+                        
+
+                       
 
                     </div>
                 </div>
         </div>
+
+
+        <!-- ! this is for grid layout  -->
+        <!-- ! this is for grid layout  -->
+        <!-- ! this is for grid layout  -->
+
+        <div class="custom-padding container-fluid ">
+            <!-- first three elements -->
+            <div class="row card-group">
+
+                <!-- *!first element -->
+                <div class="col-lg-4 col-md-6 pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- *! second element -->
+                <div class="col-lg-4 col-md-6 pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- ! third element -->
+                <div class="col-lg-4 col-md-6 pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!fourth element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!fifth element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!sixth element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!seventh element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!8 element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                  <!-- *!9 element -->
+                  <div class="col-lg-4 col-md-6  pt-5">
+                    <!-- *? first element of grid will be added here -->
+                    <div class="card">
+                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="card-body">
+                          <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
+                          <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
+                          <div class="d-flex flex-row justify-content-between  m-3">
+                            <p class="card-text p-0 m-0">Australian Paradise</p>
+                            <div>
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/selected-star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                
+                               
+                            </div>
+                          </div>
+                          <hr class="thin-hr text-muted ">
+                          <div class="p-3 custom-for-center-button ">
+                            <button class="btn custom-margin-for-date "><small class="date-of-grid-element p-1 ">from 11/09/2001 to 22/11/2001</small></button>
+                          </div>
+                          <div class="d-flex flex-row justify-content-around">
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/Already-volunteered.png" width="16px" height="16px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>250</b></small>
+                                    <p><small class="text-muted"> Already volunteered</small></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row pt-3">
+                                <img class="me-3" src="/images/deadline.png" width="22px" height="22px" alt="">
+                                <div class="flex flex-column">
+                                    <small ><b>11/09/2001</b></small>
+                                    <p><small class="text-muted">Deadline</small></p>
+                                </div>
+                            </div>
+                          </div>
+
+                          <hr class="thin-hr ">
+                          <div class="p-3 custom-for-center-button">
+                          <button type="button" class="btn btn-outline-warning btn-apply  ">Apply <img src="/images/right-arrow.png" alt=""></button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+   
+            </div>
+
+        </div>
+
+        <div class="custom-padding">
+            <div class="pt-5 pb-5 text-center  ">
+                <button class="btn btn-outline-secondary  custom-button-bg-color ">
+                    <img src="/images/previous.png" alt="">
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    <img src="/images/left.png" alt="">
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    1
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    2
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    3
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    <img src="/images/right-arrow1.png" alt="">
+                </button>
+                <button class="btn btn-outline-secondary custom-button-bg-color">
+                    <img src="/images/next.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <hr class="thick-hr  text-muted "/>
+
+        <footer class="custom-padding custom-padding-for-privacy-policy">
+            <a href="#"><small class="text-muted">Privacy Policy</small></a>
+        </footer>
+
 </body>
 </html>
 
