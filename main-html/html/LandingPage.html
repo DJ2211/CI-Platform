@@ -163,85 +163,103 @@
             <div class="row custom-width-for-2nd-navbar ">
                 <div class="col-lg-6 col-md-5 col-sm-5 col-xs-9 d-flex flex-row h-100 ">
                     <a href="#" type="button" class="align-self-center"> <img src="/images/search.png"   alt="search icon"></a>
-                    <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0  h-100 custom-for-search">
-                    <label for="search"></label>
+                    <input type="search" placeholder="Search mission..." id="search" class="form-control padding-for-search border-0  h-100 custom-for-search color-for-input">
+                    <label for="search " class="color-for-input"></label>
                 </div>
-                <nav class=" col-lg-6 col-md-7 col-sm-7 col-xs-3 navbar navbar-expand-md mb-0 p-0 ">
-                    <div class="container-fluid h-100 ">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <nav class=" col-lg-6 col-md-7 col-sm-7 col-xs-3 navbar navbar-expand-md mb-0 p-0 h-100">
+                    <div class="container-fluid h-100 z-3">
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                              data-bs-target="#searchbarContent" aria-controls="searchbarContent"
                              aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
+                        </button> -->
+
+                        <!-- !the below code is added after words -->
+                        <button class="btn btn-for-canvas" type="button"
+                         data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                          aria-controls="offcanvasRight">
+                          <span class="navbar-toggler-icon"></span>
                         </button>
 
+
+                        <div class="offcanvas offcanvas-end " style="height: 100%!important;" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header ">
+                              <h5 id="offcanvasRightLabel">Filters</h5>
+                              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body " style="height: 100%!important;">
+                                <div class="row w-100 " id="searchbarContent">
+                                    <ul class="custom-class-for-flex custom-padding-for-second-nav navbar-nav">
+                                        <li class="dropdown col-lg-3 col-md-3 p-0 ">
+                                            <button class="btn text-muted h-100 w-100 border li-for-canvas" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="w-100  d-flex flex-row justify-content-between text-muted">
+                                                    Country
+                                                <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                                </div>
+                                                
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">France</a></li>
+                                                <li><a class="dropdown-item" href="#">Italy</a></li>
+                                                <li><a class="dropdown-item" href="#">Japan</a></li>
+                                            </ul>
+                                        </li>
+                                    
+                                        <li class="dropdown col-lg-3 col-md-3 p-0 ">
+                                            <button class="btn text-muted h-100 w-100 border li-for-canvas" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="w-100  d-flex flex-row justify-content-between text-muted">
+                                                    City
+                                                <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                                </div>
+                                                
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Mumbai</a></li>
+                                                <li><a class="dropdown-item" href="#">Paris</a></li>
+                                                <li><a class="dropdown-item" href="#">Tokyo</a></li>
+                                            </ul>
+                                        </li>
+                    
+                                        <li class="dropdown col-lg-3 col-md-3 p-0 ">
+                                            <button class="btn   text-muted h-100 w-100 border li-for-canvas" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                                    Theme
+                                                <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                                </div>
+                                                
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Decoration</a></li>
+                                                <li><a class="dropdown-item" href="#">Cultural</a></li>
+                                                <li><a class="dropdown-item" href="#">Motivational</a></li>
+                                            </ul>
+                                        </li>
+                    
+                                        <li class="dropdown col-lg-3 col-md-3 p-0 ">
+                                            <button class="btn   text-muted h-100 w-100 border li-for-canvas" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <div class="w-100 d-flex flex-row justify-content-between text-muted">
+                                                    Skills
+                                                <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
+                                                </div>
+                                                
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Cooking</a></li>
+                                                <li><a class="dropdown-item" href="#">Coding</a></li>
+                                                <li><a class="dropdown-item" href="#">Nothing else</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                        
+                                </div>
+                            </div>
+                          </div>
+
                         <!-- *?this is main div -->
                         <!-- *?this is main div -->
                         <!-- *?this is main div -->
 
-                        <div class=" collapse navbar-collapse row p-0 " id="searchbarContent">
-                            <ul class="custom-class-for-flex custom-padding-for-second-nav navbar-nav h-100">
-                                <li class=" dropdown   col-lg-3 col-md-3 p-0 ">
-                                    <button class="btn text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-100  d-flex flex-row justify-content-between text-muted">
-                                            Country
-                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
-                                        </div>
-                                        
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">France</a></li>
-                                        <li><a class="dropdown-item" href="#">Italy</a></li>
-                                        <li><a class="dropdown-item" href="#">Japan</a></li>
-                                    </ul>
-                                </li>
-                            
-                                <li class=" dropdown   col-lg-3 col-md-3 p-0 ">
-                                    <button class="btn text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-100  d-flex flex-row justify-content-between text-muted">
-                                            City
-                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
-                                        </div>
-                                        
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Mumbai</a></li>
-                                        <li><a class="dropdown-item" href="#">Paris</a></li>
-                                        <li><a class="dropdown-item" href="#">Tokyo</a></li>
-                                    </ul>
-                                </li>
-            
-                                <li class="dropdown  col-lg-3  col-md-3 p-0 ">
-                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
-                                            Theme
-                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
-                                        </div>
-                                        
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Decoration</a></li>
-                                        <li><a class="dropdown-item" href="#">Cultural</a></li>
-                                        <li><a class="dropdown-item" href="#">Motivational</a></li>
-                                    </ul>
-                                </li>
-            
-                                <li class="dropdown  col-lg-3 col-md-3 p-0 ">
-                                    <button class="btn   text-muted h-100 w-100 border" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="w-100 d-flex flex-row justify-content-between text-muted">
-                                            Skills
-                                        <img src="/images/drop-down.png" height="6px" width="13px" class="my-auto " alt="drop down buttton " > 
-                                        </div>
-                                        
-                                    </button>
-                                    <ul class="dropdown-menu dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Cooking</a></li>
-                                        <li><a class="dropdown-item" href="#">Coding</a></li>
-                                        <li><a class="dropdown-item" href="#">Nothing else</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                                
-                        </div>
+                        
                     </div>
                 </nav>
               
@@ -282,11 +300,11 @@
                                     <li><a class="dropdown-item" href="#">Nothing else</a></li>
                                 </ul>
                             </div>
-                           <div class="text-end pe-2">
-                                <a href="#" type="button" class="grid-icon">
+                           <div class="text-end pe-2 btn-group">
+                                <a href="#" type="button" id="grid" class="grid-icon">
                                     <img src="/images/grid.png" alt="grid layout">
                                 </a>
-                                <a href="#" type="button" class="grid-icon-list">
+                                <a href="#" type="button" id="list" class="grid-icon-list">
                                     <img src="/images/list.png" alt="grid layout">
                                 </a>
                            </div>
@@ -311,8 +329,13 @@
                 <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -361,8 +384,13 @@
                 <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -411,8 +439,13 @@
                 <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -458,11 +491,16 @@
                 </div>
 
                   <!-- *!fourth element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -508,11 +546,16 @@
                 </div>
 
                   <!-- *!fifth element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -558,11 +601,16 @@
                 </div>
 
                   <!-- *!sixth element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -608,11 +656,16 @@
                 </div>
 
                   <!-- *!seventh element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -658,11 +711,16 @@
                 </div>
 
                   <!-- *!8 element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -708,11 +766,16 @@
                 </div>
 
                   <!-- *!9 element -->
-                  <div class="col-lg-4 col-md-6  pt-5">
+                  <div class="col-lg-4 col-md-6 pt-5">
                     <!-- *? first element of grid will be added here -->
                     <div class="card">
-                        <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
-                        <button  class="btn align-self-center custom-margin-for-button text-muted">Children</button>
+                        <div class="container">
+                            <img class="card-img-top" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Card image cap">
+                            <button class="btn btn-custom btn-hover"><img src="/images/pin.png" alt="" height="15px" width="12px"> <span> Melbourn</span></button>
+                            <button class="btn btn-custom-for-heart btn-hover"><img src="/images/heart.png" alt="" height="17px" width="17px"></button>
+                            <button class="btn btn-custom-for-square btn-hover"><div class="custom-div-for-btn"></div></button>
+                        </div>
+                        <button  class="btn align-self-center custom-margin-for-button text-muted z-2" >Children</button>
                         <div class="card-body">
                           <h5 class="card-title text-left custom-text-size-of-title pr-5">Education Supplies for Every Pair of Shoes Sold</h5>
                           <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</p>
@@ -761,6 +824,8 @@
 
         </div>
 
+
+
         <div class="custom-padding">
             <div class="pt-5 pb-5 text-center  ">
                 <button class="btn btn-outline-secondary  custom-button-bg-color ">
@@ -787,6 +852,8 @@
             </div>
         </div>
 
+
+
         <hr class="thick-hr  text-muted "/>
 
         <footer class="custom-padding custom-padding-for-privacy-policy">
@@ -795,12 +862,5 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
 
 
