@@ -265,6 +265,62 @@ ul {
 
 /* ! above code is for button fitting in image */
 
+/* ! now the below css for voluntaring page */
+
+.custom-for-volunteering-heading {
+  font-size: 30px;
+  color: #414141;
+  text-align: left;
+  font-weight: 100;
+}
+
+.custom-for-height-of-progress {
+  height: 11px;
+}
+
+.custom-class-for-progress {
+  background: #f88634 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.custom-for-volpage-btn {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #757575;
+  border-radius: 25px;
+}
+
+.custom-p-f-button {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.custom-for-child-btn {
+  width: 95%;
+}
+
+.custom-h-f-slideshow {
+  height: 22%;
+}
+
+.custom-main-image {
+  height: 90%;
+}
+
+.custom-btn-for-information {
+}
+
+.custom-btn-for-information:hover {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.custom-border {
+  border: 1px solid gray !important;
+}
+/* ! now the above css for voluntaring page */
+
 @media only screen and (max-width: 992px) {
   .custom-padding {
     padding-left: 10%;
@@ -330,5 +386,20 @@ ul {
 
   .custom-text-size-of-title {
     font-size: 22px;
+  }
+}
+
+/* !media query for volunteering page */
+/* !media query for volunteering page */
+/* !media query for volunteering page */
+
+@media only screen and (max-width: 492px) {
+  .custom-for-btn {
+    flex-direction: column !important;
+  }
+
+  .custom-for-child-btn {
+    width: 100%;
+    margin: 10px;
   }
 }
