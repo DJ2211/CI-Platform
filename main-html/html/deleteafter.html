@@ -26,15 +26,117 @@
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
    <!-- own css file import -->
    <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>
-    <div>
-        
+  <div id="content-wrap">
+    <div class="column">
+        <img id="feature" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="">
+        <div id="image-slider">
+            <i class="bi bi-chevron-left" class="arrow" id="slide-left"></i>
+
+            <div id="slider">
+                <img src="/images/volunteer1.png" alt="" class="image1 active">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+                <img src="/images/volunteer1.png" alt="" class="image1">
+            </div>
+
+            <i class="bi bi-chevron-right" class="arrow" id="slide-right"></i>
+        </div>
+
     </div>
-  
+</div>
+
+<script type="text/javascript">
+  let images=document.getElementsByClassName('image1')
+  let activeimages=document.getElementsByClassName('active')
+
+  for(var i=0;i<images.length;i++){
+      images[i].addEventListener('click',function(){
+          console.log(activeimages)
+          if(activeimages.length >0){
+              activeimages[0].classList.remove('active')
+          }
+          this.classList.add('active')
+          document.getElementById('feature').src=this.src
+      })
+  }
+
+  let buttonRight=document.getElementById('slide-right');
+  let buttonLeft=document.getElementById('slide-left');
+
+  buttonLeft.addEventListener('click', function(){
+document.getElementById('slider').scrollLeft -= 180
+})
+
+buttonRight.addEventListener('click', function(){
+document.getElementById('slider').scrollLeft += 180
+})
+
+
+
+</script> 
+
+<div class="d-flex flex-column h-100 w-50">
+
+
+  <!--! styling  for slideshow  -->
+
+  <div class="h-100" >
+      <div class="mb-2 h-75">
+          <img class="mySlides custom-main-image "  src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%;display:none">
+          <img class="mySlides custom-main-image" src="/images/Grow-Trees-On-the-path-to-environment-sustainability.png" style="width:100%">
+          <img class="mySlides custom-main-image" src="/images/image1.png" style="width:100%;display:none">
+          <img class="mySlides custom-main-image" src="/images/img1.png" style="width:100%;display:none">
+        
+      </div>
+      
+      <div class="row custom-h-f-slideshow">
+        <div class="col-3 ">
+          <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+        </div>
+        <div class="col-3 ">
+          <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-4.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+        </div>
+        <div class="col-3 ">
+          <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/image.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+        </div>
+        <div class="col-3 ">
+          <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/img2.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+        </div>
+        
+      </div>
+    </div>
+    
+    <script>
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+      }
+      x[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " w3-opacity-off";
+    }
+    </script>
+</div>
 </body>
 </html>

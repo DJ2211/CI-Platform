@@ -309,16 +309,76 @@ ul {
 }
 
 .custom-btn-for-information {
-}
-
-.custom-btn-for-information:hover {
-  border: none;
-  border-bottom: 1px solid black;
+  margin-bottom: -2px;
+  background: none;
+  border-bottom: 2px solid gray !important;
 }
 
 .custom-border {
   border: 1px solid gray !important;
 }
+
+.custom-volunteering {
+  border-radius: 50%;
+}
+
+.custom-for-volunteering-per {
+  width: 70px;
+  height: 70px;
+}
+
+.custom-for-btn-for-vol {
+  width: 15%;
+  border: 1px solid lightgray !important;
+}
+
+.custom-for-text {
+  font-weight: 100 !important;
+  font-size: 32px;
+}
+
+.custom-for-btn-for-vol-bet {
+  width: 70%;
+  border: 1px solid lightgray !important;
+}
+
+.hr {
+  border-bottom: 2px solid;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.custom-for-related-mission {
+  padding-bottom: 60px;
+}
+
+.custom-fr-tab {
+  padding: 20px;
+}
+
+.custom-for-p-of-intro {
+  font-weight: 100;
+}
+
+.custom-for-document-btn {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+}
+
+.custom-for-comments {
+  border: 1px solid #b2b2b2 !important;
+}
+
+.custom-for-image {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.custom-for-height-for-comments {
+  height: 400px;
+}
+
 /* ! now the above css for voluntaring page */
 
 @media only screen and (max-width: 992px) {
@@ -349,12 +409,21 @@ ul {
   }
 
   .navbar-nav {
-    margin: auto;
     width: 60%;
   }
 
   .li-for-canvas {
     padding: 10px !important;
+  }
+
+  .custom-for-nav-right {
+    position: absolute !important;
+    top: -0.7%;
+    left: 60%;
+  }
+
+  .custom-for-first-nav {
+    margin-top: 8px !important;
   }
 }
 
@@ -366,6 +435,12 @@ ul {
 }
 
 @media only screen and (max-width: 492px) {
+  .custom-for-nav-right {
+    position: absolute !important;
+    top: -0.7%;
+    left: 65%;
+  }
+
   .custom-padding {
     padding-left: 4%;
     padding-right: 4%;
@@ -402,4 +477,62 @@ ul {
     width: 100%;
     margin: 10px;
   }
+
+  .custom-for-btn-for-res {
+    margin: 0;
+
+    margin-top: 10px;
+  }
 }
+
+/* !image slider */
+
+#content-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  width: 600px;
+  padding: 10px;
+}
+
+#feature {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image1 {
+  object-fit: cover;
+  width: 115px;
+  height: 100px;
+  cursor: pointer;
+  opacity: 0.5;
+  margin: 5px;
+}
+
+.image1:hover {
+  opacity: 1;
+}
+
+.active {
+  opacity: 1;
+}
+
+#image-slider {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+#slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+/* !image slider */
