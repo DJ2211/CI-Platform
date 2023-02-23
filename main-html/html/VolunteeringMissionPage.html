@@ -94,7 +94,7 @@
                 <!-- Collapsible wrapper -->
                     
                         <!-- Right elements -->
-                        <div class="d-flex align-items-center custom-for-nav-right ">
+                        <div class="d-flex align-items-center custom-for-nav-right custom-for-nav-for-one-pixel">
     
                             <!-- Icon -->
                             <a class="text-reset me-3 " href="#">
@@ -159,58 +159,75 @@
 
                     <!--! styling  for slideshow  -->
 
-                    <div class="h-100" >
-                        <div class="mb-2 h-75">
-                            <img class="mySlides custom-main-image "  src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png" style="width:100%;display:none">
-                            <img class="mySlides custom-main-image" src="/images/Grow-Trees-On-the-path-to-environment-sustainability.png" style="width:100%">
-                            <img class="mySlides custom-main-image" src="/images/image1.png" style="width:100%;display:none">
-                            <img class="mySlides custom-main-image" src="/images/img1.png" style="width:100%;display:none">
-                          
-                        </div>
+                    <div class=" h-100" >
+                        <div class="mb-2 h-100">
+                            
+                                <div class="h-75 mb-3">
+                                    <img  id="feature" class="h-100  w-100 object-fit-fill " src="/images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="">
+                                </div>
+                                <div class="d-flex flex-row align-items-center ">
+
+                                    <i class="bi bi-chevron-left " class="arrow" id="slide-left"></i>
                         
-                        <div class="row custom-h-f-slideshow">
-                          <div class="col-3 ">
-                            <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
-                          </div>
-                          <div class="col-3 ">
-                            <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/Grow-Trees-On-the-path-to-environment-sustainability-4.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
-                          </div>
-                          <div class="col-3 ">
-                            <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/image.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
-                          </div>
-                          <div class="col-3 ">
-                            <img class="demo w3-opacity w3-hover-opacity-off h-100" src="/images/img2.png" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
-                          </div>
-                          
+                                    <div id="slider" class="d-flex overflow-x-hidden  ">
+                                        <img class="img active h-100 " src="/images/img2.png" >
+
+                                        <img class="img h-100" src="/images/image.png" >
+
+                                        <img class="img h-100 " src="/images/Grow-Trees-On-the-path-to-environment-sustainability-5.png" >
+
+                                        <img class="img h-100" src="/images/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png" >
+                                        
+                                        <img class="img h-100" src="/images/image.png" >
+
+                                        
+                                        
+                                    </div>
+                        
+                                    <i class="bi bi-chevron-right" class="arrow" id="slide-right"></i>
+                                </div>    
+                            
+                                
+                            
                         </div>
                       </div>
+
                       
-                      <script>
-                      function currentDiv(n) {
-                        showDivs(slideIndex = n);
-                      }
                       
-                      function showDivs(n) {
-                        var i;
-                        var x = document.getElementsByClassName("mySlides");
-                        var dots = document.getElementsByClassName("demo");
-                        if (n > x.length) {slideIndex = 1}
-                        if (n < 1) {slideIndex = x.length}
-                        for (i = 0; i < x.length; i++) {
-                          x[i].style.display = "none";
+                      <script type="text/javascript">
+                        let images=document.getElementsByClassName('img')
+                        let activeimages=document.getElementsByClassName('active')
+                      
+                        for(var i=0;i<images.length;i++){
+                            images[i].addEventListener('click',function(){
+                                console.log(activeimages)
+                                if(activeimages.length >0){
+                                    activeimages[0].classList.remove('active')
+                                }
+                                this.classList.add('active')
+                                document.getElementById('feature').src=this.src
+                            })
                         }
-                        for (i = 0; i < dots.length; i++) {
-                          dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-                        }
-                        x[slideIndex-1].style.display = "block";
-                        dots[slideIndex-1].className += " w3-opacity-off";
-                      }
+                      
+                        let buttonRight=document.getElementById('slide-right');
+                        let buttonLeft=document.getElementById('slide-left');
+                      
+                        buttonLeft.addEventListener('click', function(){
+                      document.getElementById('slider').scrollLeft -= 180
+                      })
+                      
+                      buttonRight.addEventListener('click', function(){
+                      document.getElementById('slider').scrollLeft += 180
+                      })
+                      
+                      
+                      
                       </script>
                 </div>
                 
             </div>
-            <div class="col-lg-6 py-5">
-                <div>
+            <div class="col-lg-6 py-5 mt-3">
+                <div class="custom-for-res-padding">
                     <p class="text-muted custom-for-volunteering-heading">CSR initiative stands for Coffee & Farmer Equity</p>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                 </div>
@@ -240,7 +257,7 @@
                 <!-- the below code is for buttons for page -->
                 <div class="d-flex flex-row   mt-3  custom-for-btn ">
                     <div class="custom-for-child-btn custom-for-btn-for-res">
-                        <button class="btn p-3 custom-for-child-btn    text-muted text-center custom-for-volpage-btn custom-for-btn-for-res"><img src="/images/heart1.png" height="16px" width="16px" alt="add to favorite">&nbsp; Add to Favorite</button>
+                        <button class="btn p-3 custom-for-child-btn    text-muted text-center custom-for-volpage-btn custom-for-btn-for-res"><img src="/images/heart1.png" height="16px" width="16px" alt="add to favorite">&nbsp;  Add to Favorite</button>
                     </div>
 
                     <div class="custom-for-child-btn text-end custom-for-btn-for-res">
@@ -781,3 +798,10 @@
 </html>
 
 
+
+
+<!-- 
+
+
+
+ -->
