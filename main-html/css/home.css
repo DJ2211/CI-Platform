@@ -253,6 +253,10 @@ ul {
   padding-left: 30px;
 }
 
+/* .custom-hidden{
+  display: inline-block;
+} */
+
 .btn-login {
   outline: 1px solid #f88634;
   border-radius: 24px;
@@ -385,17 +389,17 @@ ul {
 
 /* !now the below code is for storylisting page */
 
-/* .custom-for-img-text { */
-/* display: inline-block;
-  top: 45%;
-  color: white;
-  width: 50%;
-  /* justify-content: center; */
-/* text-align: center; */
-/* } */
+.custom-for-image-for-story {
+  background-image: url(/images/story-listing.png);
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  /* object-fit: fill; */
+  opacity: 0.87;
+}
 
-.btn-share-your-story {
-  background-color: transparent;
+.btn-shareStory {
+  background: transparent;
   border: 2px solid white;
   border-radius: 24px;
   padding-left: 20px;
@@ -403,44 +407,33 @@ ul {
   color: white;
 }
 
-.btn-share-your-story:hover {
+.btn-shareStory:hover {
   color: white;
-  border: 1px solid white;
+  font: white;
 }
 
-.container {
-  position: relative;
-  width: 100%;
+.custom-for-padding {
+  padding-top: 130px;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.custom-top-for-btn {
+  top: 42%;
+  left: 33%;
+  opacity: 0;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.container:hover .overlay {
+.custom-top-for-btn:hover {
+  top: 42%;
+  left: 33%;
   opacity: 1;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 20%;
+.custom-for-image-for-overlay {
+  opacity: 1;
+}
 
-  text-align: center;
+.custom-for-image-for-overlay:hover {
+  opacity: 0.4;
 }
 
 /* !now the above code is for storylisting page */
@@ -522,6 +515,10 @@ ul {
   .custom-for-first-nav {
     margin-top: 8px !important;
   }
+
+  .custom-for-div {
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -529,9 +526,17 @@ ul {
     display: inline;
     border: 1px solid;
   }
+
+  .custom-for-padding {
+    padding-top: 80px;
+  }
 }
 
 @media only screen and (max-width: 492px) {
+  .custom-for-padding {
+    padding-top: 40px;
+  }
+
   .custom-for-nav-right {
     position: absolute !important;
     top: -0.7%;
